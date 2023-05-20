@@ -3,10 +3,10 @@ import React, { useState } from 'react';
 
 export default function About(props) {
   return (
-    <section>
+    <div>
       <h2 id="aboutme" className="border">About Me</h2>
-      <p>I am Brett Hicklin, and I'm currently enrolled in a coding bootcamp where I will learn about
-      <ul class="columnlist">
+      <p>I am Brett Hicklin, and I'm currently enrolled in a coding bootcamp where I will learn about</p>
+      <ul className="columnlist">
         <li>HTML/CSS/Git</li>
         <li>JavaScript</li>
         <li>Bootstrap</li>
@@ -31,10 +31,10 @@ export default function About(props) {
         <li>MERN Stack</li>
         <li>Computer science fundamentals</li>
       </ul>
-      </p>
+      
       <p> My background includes electronics repair and overhaul on nuclear powered submarines
         as well as calibration of electrical test equipment</p>
-    </section>
+    </div>
   )
 }
 
