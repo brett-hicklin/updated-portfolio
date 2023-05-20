@@ -6,7 +6,7 @@ function Portfolio() {
     <div className="flexbox-container">
 
     <a href="https://jdeshaies.github.io/movie-search-project/index.html" target="_blank">
-      <img className="item item1" src="../../public/images/RipeTomatoes.png" alt="Ripe Tomates movie search" height="250px"
+      <img className="item item1" src="../../assets/images/RipeTomatoes.png" alt="Ripe Tomates movie search" height="250px"
         width="500px"/>
     </a>
     
