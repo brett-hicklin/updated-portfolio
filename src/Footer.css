@@ -1,21 +1,28 @@
 .footer {
-    background-color: #f5f5f5;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  .icon {
-    color: #000;
-    font-size: 30px;
-  }
-  
-  .icon:hover {
-    color: #007bff;
-  }
-  
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon {
+  color: #000;
+  font-size: 30px;
+}
+
+.icon:hover {
+  color: #007bff;
+}
+
+body {
+  padding-bottom: 60px; 
+}
