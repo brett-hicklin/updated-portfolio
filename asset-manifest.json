@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/brett-hicklin/updated-portfolio/static/css/main.ad8d66ff.css",
-    "main.js": "/brett-hicklin/updated-portfolio/static/js/main.7a5f2631.js",
-    "static/media/Brett.jpg": "/brett-hicklin/updated-portfolio/static/media/Brett.ff1ccb73dad8d06ebad4.jpg",
-    "static/media/Weather-Dashboard-2.png": "/brett-hicklin/updated-portfolio/static/media/Weather-Dashboard-2.5ea2dc52ceb2f0d4b029.png",
-    "static/media/workday-scheduler.png": "/brett-hicklin/updated-portfolio/static/media/workday-scheduler.c0ff1d30e59687078dc7.png",
-    "static/media/resume.pdf": "/brett-hicklin/updated-portfolio/static/media/resume.dc940ed37c35691d61fd.pdf",
-    "static/media/MMM.png": "/brett-hicklin/updated-portfolio/static/media/MMM.6dbc39f20a734e2fe4a2.png",
-    "static/media/RipeTomatoes.png": "/brett-hicklin/updated-portfolio/static/media/RipeTomatoes.8375275d7c3f933d96c8.png",
-    "static/media/Jate.png": "/brett-hicklin/updated-portfolio/static/media/Jate.ea289c933bcad16d4333.png",
-    "static/media/password-generator-1.png": "/brett-hicklin/updated-portfolio/static/media/password-generator-1.94dddaf69eada831be4d.png",
-    "index.html": "/brett-hicklin/updated-portfolio/index.html",
-    "main.ad8d66ff.css.map": "/brett-hicklin/updated-portfolio/static/css/main.ad8d66ff.css.map",
-    "main.7a5f2631.js.map": "/brett-hicklin/updated-portfolio/static/js/main.7a5f2631.js.map"
+    "main.css": "/updated-portfolio/static/css/main.ad8d66ff.css",
+    "main.js": "/updated-portfolio/static/js/main.44d0a933.js",
+    "static/media/Brett.jpg": "/updated-portfolio/static/media/Brett.ff1ccb73dad8d06ebad4.jpg",
+    "static/media/Weather-Dashboard-2.png": "/updated-portfolio/static/media/Weather-Dashboard-2.5ea2dc52ceb2f0d4b029.png",
+    "static/media/workday-scheduler.png": "/updated-portfolio/static/media/workday-scheduler.c0ff1d30e59687078dc7.png",
+    "static/media/resume.pdf": "/updated-portfolio/static/media/resume.dc940ed37c35691d61fd.pdf",
+    "static/media/MMM.png": "/updated-portfolio/static/media/MMM.6dbc39f20a734e2fe4a2.png",
+    "static/media/RipeTomatoes.png": "/updated-portfolio/static/media/RipeTomatoes.8375275d7c3f933d96c8.png",
+    "static/media/Jate.png": "/updated-portfolio/static/media/Jate.ea289c933bcad16d4333.png",
+    "static/media/password-generator-1.png": "/updated-portfolio/static/media/password-generator-1.94dddaf69eada831be4d.png",
+    "index.html": "/updated-portfolio/index.html",
+    "main.ad8d66ff.css.map": "/updated-portfolio/static/css/main.ad8d66ff.css.map",
+    "main.44d0a933.js.map": "/updated-portfolio/static/js/main.44d0a933.js.map"
   },
   "entrypoints": [
     "static/css/main.ad8d66ff.css",
-    "static/js/main.7a5f2631.js"
+    "static/js/main.44d0a933.js"
   ]
 }
