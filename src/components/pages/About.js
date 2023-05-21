@@ -1,38 +1,34 @@
 import React, { useState } from 'react';
-// import About from './';
+import RecentPicture from '../../assets/images/Brett.jpg'
 
 export default function About(props) {
   return (
-    <div>
-      <h2 id="aboutme" className="border">About Me</h2>
-      <p>I am Brett Hicklin, and I'm currently enrolled in a coding bootcamp where I will learn about</p>
-      <ul className="columnlist">
-        <li>HTML/CSS/Git</li>
-        <li>JavaScript</li>
-        <li>Bootstrap</li>
-        <li>The DOM</li>
-        <li>APIs</li>
-        <li>JQuery</li>
-        <li>AJAX</li>
-        <li>Agile development</li>
-        <li>Node</li>
-        <li>ES6</li>
-        <li>Object-oriented programming</li>
-        <li>Express</li>
-        <li>MySQL</li>
-        <li>MVC paradigm</li>
-        <li>Sequelize</li>
-        <li>Testing</li>
-        <li>Team collaboration</li>
-        <li>Project demonstration and storytelling</li>
-        <li>Progressive Web Apps</li>
-        <li>React</li>
-        <li>NoSQL</li>
-        <li>MERN Stack</li>
-        <li>Computer science fundamentals</li>
+    <div style={{
+      margin:'20px'
+    }}>
+      <h2 id="aboutme">About Me</h2>
+      <img src={RecentPicture} alt="Avatar" style={{ width: '150px', borderRadius: '10%' }} />
+      <p>I am Brett Hicklin, and I'm currently enrolled in a coding bootcamp where I have learned about several topics, including, but not limited to:</p>
+      <ul>
+        <li>
+         Javascript
+        </li>
+
+        <li>
+         APIs
+        </li>
+
+        <li>
+         Progressive Web Applications
+        </li>
+
+        <li>
+         Node.js
+         </li>
+
       </ul>
       
-      <p> My background includes electronics repair and overhaul on nuclear powered submarines
+      <p> After completing this Bootcamp, it is my goal to find an entry level position in coding. My previous work background includes electronics repair and overhaul on nuclear powered submarines
         as well as calibration of electrical test equipment</p>
     </div>
   )
