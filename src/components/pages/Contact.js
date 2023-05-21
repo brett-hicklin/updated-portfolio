@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
+import '../../Contact.css'
 
-
-export default function Contact(){
-
+export default function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [message,setMessage] = useState('');
+  const [message, setMessage] = useState('');
   const [nameError, setNameError] = useState('');
   const [emailError, setEmailError] = useState('');
   const [messageError, setMessageError] = useState('');
+  const [formSubmitted, setFormSubmitted] = useState(false);
 
   function handleNameChange(event) {
     setName(event.target.value);
@@ -56,61 +56,66 @@ export default function Contact(){
     if (email.trim() === '') {
       setEmailError('Email is required');
     }
+
     if (message.trim() === '') {
       setMessageError('Message is required');
     }
 
     if (name.trim() !== '' && email.trim() !== '' && message.trim() !== '') {
-    
       setName('');
       setEmail('');
       setMessage('');
+      setFormSubmitted(true);
       console.log('Form submitted!');
     }
   }
 
-  return(
+  return (
     <form onSubmit={handleSubmit}>
-      
-    <label>
-      Name:
-      <input
-          type="text"
-          value={name}
-          onChange={handleNameChange}
-          onBlur={handleNameBlur}
-          required
-        />
-         {nameError && <div>{nameError}</div>}
-    </label>
-    <br />
-    <label>
-      Email:
-      <input
-          type="email"
-          value={email}
-          onChange={handleEmailChange}
-          onBlur={handleEmailBlur}
-          required
-        />
-        {emailError && <div>{emailError}</div>}
-    </label>
-    <label>
-      Message:
-      <input
-          type="message"
-          value={message}
-          onChange={handleMessageChange}
-          onBlur={handleMessageBlur}
-          required
-        />
-        {messageError && <div>{messageError}</div>}
-    </label>
-    <br />
-    <button type="submit">Submit</button>
-  
+      <div>
+        <legend>Contact Information</legend>
+        <div className="form-group">
+          <label htmlFor="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            value={name}
+            onChange={handleNameChange}
+            onBlur={handleNameBlur}
+            required
+          />
+          {nameError && <div className="error-message">{nameError}</div>}
+        </div>
+        <div className="form-group">
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            value={email}
+            onChange={handleEmailChange}
+            onBlur={handleEmailBlur}
+            required
+          />
+          {emailError && <div className="error-message">{emailError}</div>}
+        </div>
+        <div className="form-group">
+          <label htmlFor="message">Message:</label>
+          <textarea
+            id="message"
+            value={message}
+            onChange={handleMessageChange}
+            onBlur={handleMessageBlur}
+            required
+          ></textarea>
+          {messageError && <div className="error-message">{messageError}</div>}
+        </div>
+      </div>
+      {formSubmitted && (
+        <div className="success-message">Thank you for your message!</div>
+      )}
+      <button type="submit">Submit</button>
     </form>
-  )
+  );
 }
 
 
