@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import '../../Contact.css'
+import React, { useState } from "react";
+import "../../Contact.css";
 
 export default function Contact() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-  const [nameError, setNameError] = useState('');
-  const [emailError, setEmailError] = useState('');
-  const [messageError, setMessageError] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [nameError, setNameError] = useState("");
+  const [emailError, setEmailError] = useState("");
+  const [messageError, setMessageError] = useState("");
   const [formSubmitted, setFormSubmitted] = useState(false);
 
   function handleNameChange(event) {
@@ -23,50 +23,50 @@ export default function Contact() {
   }
 
   function handleNameBlur() {
-    if (name.trim() === '') {
-      setNameError('Name is required');
+    if (name.trim() === "") {
+      setNameError("Name is required");
     } else {
-      setNameError('');
+      setNameError("");
     }
   }
 
   function handleEmailBlur() {
-    if (email.trim() === '') {
-      setEmailError('Email is required');
+    if (email.trim() === "") {
+      setEmailError("Email is required");
     } else {
-      setEmailError('');
+      setEmailError("");
     }
   }
 
   function handleMessageBlur() {
-    if (message.trim() === '') {
-      setMessageError('Message is required');
+    if (message.trim() === "") {
+      setMessageError("Message is required");
     } else {
-      setMessageError('');
+      setMessageError("");
     }
   }
 
   function handleSubmit(event) {
     event.preventDefault();
 
-    if (name.trim() === '') {
-      setNameError('Name is required');
+    if (name.trim() === "") {
+      setNameError("Name is required");
     }
 
-    if (email.trim() === '') {
-      setEmailError('Email is required');
+    if (email.trim() === "") {
+      setEmailError("Email is required");
     }
 
-    if (message.trim() === '') {
-      setMessageError('Message is required');
+    if (message.trim() === "") {
+      setMessageError("Message is required");
     }
 
-    if (name.trim() !== '' && email.trim() !== '' && message.trim() !== '') {
-      setName('');
-      setEmail('');
-      setMessage('');
+    if (name.trim() !== "" && email.trim() !== "" && message.trim() !== "") {
+      setName("");
+      setEmail("");
+      setMessage("");
       setFormSubmitted(true);
-      console.log('Form submitted!');
+      console.log("Form submitted!");
     }
   }
 
@@ -117,14 +117,3 @@ export default function Contact() {
     </form>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
