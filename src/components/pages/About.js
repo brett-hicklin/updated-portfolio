@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import RecentPicture from "../../assets/images/Brett.jpg";
 
 export default function About(props) {

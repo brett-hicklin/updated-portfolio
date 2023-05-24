@@ -5,10 +5,10 @@ import PortfolioContainer from './components/PortfolioContainer';
 const App = () => {
 
     return(
-        <>
+    <>
         <PortfolioContainer />
         <Footer />
-        </>
+    </>
     )
 
 };
