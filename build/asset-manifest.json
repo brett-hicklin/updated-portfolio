@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/updated-portfolio/static/css/main.ad8d66ff.css",
-    "main.js": "/updated-portfolio/static/js/main.44d0a933.js",
+    "main.js": "/updated-portfolio/static/js/main.39f5b1f5.js",
     "static/media/Brett.jpg": "/updated-portfolio/static/media/Brett.ff1ccb73dad8d06ebad4.jpg",
     "static/media/Weather-Dashboard-2.png": "/updated-portfolio/static/media/Weather-Dashboard-2.5ea2dc52ceb2f0d4b029.png",
     "static/media/workday-scheduler.png": "/updated-portfolio/static/media/workday-scheduler.c0ff1d30e59687078dc7.png",
@@ -12,10 +12,10 @@
     "static/media/password-generator-1.png": "/updated-portfolio/static/media/password-generator-1.94dddaf69eada831be4d.png",
     "index.html": "/updated-portfolio/index.html",
     "main.ad8d66ff.css.map": "/updated-portfolio/static/css/main.ad8d66ff.css.map",
-    "main.44d0a933.js.map": "/updated-portfolio/static/js/main.44d0a933.js.map"
+    "main.39f5b1f5.js.map": "/updated-portfolio/static/js/main.39f5b1f5.js.map"
   },
   "entrypoints": [
     "static/css/main.ad8d66ff.css",
-    "static/js/main.44d0a933.js"
+    "static/js/main.39f5b1f5.js"
   ]
 }
