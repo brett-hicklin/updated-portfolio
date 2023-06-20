@@ -1,7 +1,7 @@
 import React from "react";
 import RipeTomatoes from "../../assets/images/RipeTomatoes.png";
 import MMM from "../../assets/images/MMM.png";
-import Jate from "../../assets/images/Jate.png";
+import SketchyBusiness from "../../assets/images/sketchyBusiness.png";
 import WeatherDashboard from "../../assets/images/Weather-Dashboard-2.png";
 import Scheduler from "../../assets/images/workday-scheduler.png";
 import PwGenerator from "../../assets/images/password-generator-1.png";
@@ -27,11 +27,11 @@ const portfolioItems = [
 
   {
     id: 3,
-    image: Jate,
-    alt: "Text editor",
-    liveLink: "https://radiant-mesa-13159.herokuapp.com/",
-    repoLink: "https://github.com/brett-hicklin/text-editor",
-    repoName: "Just Another Text Editor Repo",
+    image: SketchyBusiness,
+    alt: "Art Ecommerce website",
+    liveLink: "https://dry-mesa-58962.herokuapp.com/",
+    repoLink: "https://github.com/brett-hicklin/Sketchy_business",
+    repoName: "Sketchy Business Repo",
   },
 
   {
